@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   // Puedes agregar lógica para manejar diferentes rutas o recursos
 
   // Lee el archivo Pug
-  const pugTemplate = fs.readFileSync('index.pug', 'utf8');
+  const pugTemplate = fs.readFileSync('index2.pug', 'utf8');
 
   // Compila el archivo Pug a HTML
   const compiledHtml = pug.render(pugTemplate);
